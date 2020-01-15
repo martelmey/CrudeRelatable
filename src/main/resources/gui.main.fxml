@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ToolBar prefHeight="40.0" prefWidth="550.0">
+         <items>
+            <Label text="Convert to and from:" wrapText="true">
+               <font>
+                  <Font name="Verdana" size="19.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+            <RadioButton mnemonicParsing="false" text="US to CA">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </RadioButton>
+            <RadioButton layoutX="217.0" layoutY="17.0" mnemonicParsing="false" text="CA to US">
+               <font>
+                  <Font name="Verdana" size="12.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+            </RadioButton>
+         </items>
+      </ToolBar>
+      <Label layoutX="48.0" layoutY="73.0" text="Price per (unit):">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+         <padding>
+            <Insets bottom="40.0" />
+         </padding></Label>
+      <Label layoutX="47.0" layoutY="123.0" text="(unit)s pumped:">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+         <padding>
+            <Insets bottom="40.0" />
+         </padding>
+      </Label>
+      <TextField layoutX="175.0" layoutY="73.0" />
+      <TextField layoutX="175.0" layoutY="120.0" />
+      <Label layoutX="72.0" layoutY="182.0" text="(input)">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <padding>
+            <Insets bottom="40.0" />
+         </padding>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="362.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gasoline-trans.png.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="71.0" layoutY="241.0" text="(result)">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <padding>
+            <Insets bottom="40.0" />
+         </padding>
+      </Label>
+      <Button layoutX="383.0" layoutY="73.0" mnemonicParsing="false" text="Convert!" />
+   </children>
+</AnchorPane>
