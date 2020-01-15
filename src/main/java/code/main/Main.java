@@ -8,13 +8,11 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-
-
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/gui.main.fxml"));
         primaryStage.setTitle("MXANA's Crude Relatable");
-        primaryStage.setScene(new Scene(root, 600, 250));
+        primaryStage.setScene(new Scene(root, 525, 330));
         primaryStage.show();
     }
 
